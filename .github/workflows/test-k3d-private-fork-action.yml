@@ -1,5 +1,5 @@
 name: test-k3d-action
-run-name: ${{ github.actor }} is testing fork of k3d-action
+run-name: ${{ github.actor }} is testing private fork of k3d-action
 on:
   - push
   - pull_request
