@@ -5,7 +5,7 @@ on:
   - pull_request
   - workflow_dispatch
 jobs:
-  run-k3d:
+  run-k3d-action-private-fork:
     runs-on: ubuntu-latest
     steps:
       - uses: p-se/rancher-sandbox-k3d-action@main

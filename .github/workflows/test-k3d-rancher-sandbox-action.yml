@@ -1,0 +1,15 @@
+name: test-k3d-action
+run-name: ${{ github.actor }} is testing fork of k3d-action
+on:
+  - push
+  - pull_request
+  - workflow_dispatch
+jobs:
+  run-k3d-action-rancher-sandbox:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: rancher-sandbox/k3d-action@main
+        name: test k3d-action fork
+        with:
+          cluster-name: test-cluster
+          k3d-version: v5.4.6
