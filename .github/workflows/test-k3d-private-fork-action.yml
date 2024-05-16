@@ -1,4 +1,4 @@
-name: test-k3d-action
+name: test-k3d-action-private-fork
 run-name: ${{ github.actor }} is testing private fork of k3d-action
 on:
   - push

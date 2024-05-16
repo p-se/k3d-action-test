@@ -1,4 +1,4 @@
-name: test-k3d-action
+name: test-k3d-action-rancher-sandbox
 run-name: ${{ github.actor }} is testing rancher-sandbox fork of k3d-action
 on:
   - push
